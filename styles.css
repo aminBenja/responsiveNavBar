@@ -1,0 +1,22 @@
+body {
+    margin: 0%;
+}
+.franja{
+    background-color: aqua;
+ 
+}
+
+
+.franja h1{
+    margin: 0%;
+    text-align: center;
+}
+.franja ul{
+    margin: 0%;
+}
+.franja li{
+    float: left;
+    text-decoration: none;
+}
+
+

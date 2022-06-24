@@ -1,0 +1,13 @@
+ESPECIFICACIONES DEL PROYECTO
+-------------------------------------
+PAGINAS:
+    inicio
+        horarios de clases dirigidas
+    instalaciones:
+        fotos del gimnasio
+        lista de equipamiento
+    precios
+        precios segun edad
+        precios segun horario
+    contacto
+        formulario de contacto
