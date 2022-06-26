@@ -13,10 +13,23 @@ body {
 }
 .franja ul{
     margin: 0%;
+    list-style: none;    
+    padding: auto;
+    overflow: auto;
+    
 }
 .franja li{
     float: left;
-    text-decoration: none;
+    padding-right: 20px;
+    
 }
-
+table{
+    border-collapse: collapse;
+}
+.h-clases-dirigida tr, th, td{
+    border: 1px solid grey;
+    padding: 3px;
+    text-align: center;
+    
+}
 
