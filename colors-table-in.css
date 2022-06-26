@@ -19,3 +19,14 @@
 #artes-marciales{
     background-color: #54f5c6;
 }
+
+table{
+    border-collapse: collapse;
+}
+.h-clases-dirigida tr, th, td{
+    border: 1px solid grey;
+    padding: 3px;
+    text-align: center;
+    
+}
+

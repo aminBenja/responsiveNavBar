@@ -1,35 +1,45 @@
-body {
+body{
     margin: 0%;
-}
-.franja{
-    background-color: aqua;
- 
-}
-
-
-.franja h1{
-    margin: 0%;
-    text-align: center;
-}
-.franja ul{
-    margin: 0%;
-    list-style: none;    
-    padding: auto;
-    overflow: auto;
     
 }
-.franja li{
-    float: left;
-    padding-right: 20px;
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdfdf;
+    justify-content: space-between;
+    padding: 10px;
     
+    align-items: center;
 }
-table{
-    border-collapse: collapse;
+header nav a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.h-clases-dirigida tr, th, td{
-    border: 1px solid grey;
-    padding: 3px;
-    text-align: center;
+header nav a:hover{
+    color:#909090;
+}
+
+.logo{
+    display: flex; 
+    align-items: center;
     
 }
 
+.logo img{
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+/*RESPONSIVE*/
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    
+}
+/*para que apartir de los 700px mi menu haga que
+los elementos de mi header (los cuáles hemos de recordar
+que solo son los "a" ya que la img y el titulo están
+en un div aparte) se flexionen en columnas*/
